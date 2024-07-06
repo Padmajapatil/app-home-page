@@ -1,0 +1,89 @@
+.text-title{
+    color: darkblue;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* slider code  */
+
+.slider-container {
+  width: 100%;
+  overflow-x: auto;
+  padding-top: 20px;
+}
+
+.slider {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 300%; /* adjust this value to fit your needs */
+}
+
+.slide1 {
+  /* width: 10%; adjust this value to fit your needs */
+  width: 200px;
+  /* height: 200px; */
+  /* background-color: #eee; */
+  margin: 10px;
+  text-align: center;
+  /* padding: 20px; */
+  /* border: 1px solid #ddd; */
+}
+.image-text {
+top: -70px;
+  /* left: 88px; */
+  position: relative;
+/* transform: translate(-50%, -50%); */
+font-size: 18px;
+font-weight: bold;
+color: #fff;
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.slider-container::-webkit-scrollbar {
+display: none;
+}
+
+
+/* slider 2  */
+.slide2 img{
+  width: 300px;
+  height: 400px;
+}
+.slide2 {
+  /* width: 10%; adjust this value to fit your needs */
+  /* background-color: #eee; */
+  margin: 10px;
+  text-align: center;
+  /* padding: 20px; */
+  /* border: 1px solid #ddd; */
+}
+
+
+/*  */
+
+.img-tip{
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+}
+.title-tip{
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+
+.icon{
+  font-size: 19px;
+}
+@media (max-width: 768px) {
+    .carousel-caption {
+      font-weight: 500;
+      bottom: 0;
+      top: 60%;
+      margin: 10px;
+      padding: 0;
+      left: 0;
+      right: 0;
+      text-align: left;
+      font-size: 14px;
+    }
+  }

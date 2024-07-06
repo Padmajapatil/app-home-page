@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+ 
+
+
+.slider-container {
+    width: 100%;
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.slider {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 300%; /* adjust this value to fit your needs */
+}
+
+.slide2 {
+    /* width: 10%; adjust this value to fit your needs */
+    /* background-color: #eee; */
+    margin: 10px;
+    text-align: center;
+    /* padding: 20px; */
+    /* border: 1px solid #ddd; */
+}
+.slide2 img{
+  width: 300px;
+  height: 400px;
+}
+.image-text {
+  top: -70px;
+    /* left: 88px; */
+    position: relative;
+  /* transform: translate(-50%, -50%); */
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.slider-container::-webkit-scrollbar {
+  display: none;
+}
+    </style>
+</head>
+<body>
+
+
+
+      <div class="slider-container">
+        <div class="slider">
+            <div class="slide2"> <img src="./Images/Rectangle 398.png" alt="">
+              <p class="image-text">Image 1 text</p></div>
+            <div class="slide2"> <img src="./Images/Rectangle 396 (1).png" alt="">
+              <p class="image-text">Image 1 text</p></div>
+            <div class="slide2"> <img src="./Images/Rectangle 396 (1).png" alt="">
+              <p class="image-text">Image 1 text</p></div>
+            <div class="slide2"> <img src="./Images/Rectangle 396 (1).png" alt="">
+              <p class="image-text">Image 1 text</p></div>
+            <div class="slide2"> <img src="./Images/Rectangle 396 (1).png" alt="">
+              <p class="image-text">Image 1 text</p></div>
+        </div>
+    </div>
+
+     
+</body>
+</html>
